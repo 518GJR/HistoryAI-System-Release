@@ -1,0 +1,590 @@
+[
+  {
+    "path": "backend/app/database.py",
+    "source": "backend/app/database.py"
+  },
+  {
+    "path": "backend/app/init_db.py",
+    "source": "backend/app/init_db.py"
+  },
+  {
+    "path": "backend/app/main.py",
+    "source": "backend/app/main.py"
+  },
+  {
+    "path": "backend/app/models.py",
+    "source": "backend/app/models.py"
+  },
+  {
+    "path": "backend/app/schemas.py",
+    "source": "backend/app/schemas.py"
+  },
+  {
+    "path": "backend/app/__init__.py",
+    "source": "backend/app/__init__.py"
+  },
+  {
+    "path": "backend/app/api/knowledge.py",
+    "source": "backend/app/api/knowledge.py"
+  },
+  {
+    "path": "backend/app/api/question.py",
+    "source": "backend/app/api/question.py"
+  },
+  {
+    "path": "backend/app/api/speech.py",
+    "source": "backend/app/api/speech.py"
+  },
+  {
+    "path": "backend/app/api/user.py",
+    "source": "backend/app/api/user.py"
+  },
+  {
+    "path": "backend/app/api/__init__.py",
+    "source": "backend/app/api/__init__.py"
+  },
+  {
+    "path": "backend/app/scripts/build_textbook_vector_index.py",
+    "source": "backend/app/scripts/build_textbook_vector_index.py"
+  },
+  {
+    "path": "backend/app/scripts/import_history_knowledge.py",
+    "source": "backend/app/scripts/import_history_knowledge.py"
+  },
+  {
+    "path": "backend/app/scripts/import_signed_textbook_knowledge.py",
+    "source": "backend/app/scripts/import_signed_textbook_knowledge.py"
+  },
+  {
+    "path": "backend/app/scripts/migration_signed_textbook_knowledge.sql",
+    "source": "backend/app/scripts/migration_signed_textbook_knowledge.sql"
+  },
+  {
+    "path": "backend/app/scripts/run_signed_textbook_migration.py",
+    "source": "backend/app/scripts/run_signed_textbook_migration.py"
+  },
+  {
+    "path": "backend/app/scripts/verify_support_assessment.py",
+    "source": "backend/app/scripts/verify_support_assessment.py"
+  },
+  {
+    "path": "backend/app/scripts/verify_textbook_retrieval.py",
+    "source": "backend/app/scripts/verify_textbook_retrieval.py"
+  },
+  {
+    "path": "backend/app/scripts/verify_vector_api.py",
+    "source": "backend/app/scripts/verify_vector_api.py"
+  },
+  {
+    "path": "backend/app/scripts/__init__.py",
+    "source": "backend/app/scripts/__init__.py"
+  },
+  {
+    "path": "backend/app/services/ai_service.py",
+    "source": "backend/app/services/ai_service.py"
+  },
+  {
+    "path": "backend/app/services/knowledge_service.py",
+    "source": "backend/app/services/knowledge_service.py"
+  },
+  {
+    "path": "backend/app/services/provider_config.py",
+    "source": "backend/app/services/provider_config.py"
+  },
+  {
+    "path": "backend/app/services/rag_service.py",
+    "source": "backend/app/services/rag_service.py"
+  },
+  {
+    "path": "backend/app/services/signed_textbook_service.py",
+    "source": "backend/app/services/signed_textbook_service.py"
+  },
+  {
+    "path": "backend/app/services/speech_service.py",
+    "source": "backend/app/services/speech_service.py"
+  },
+  {
+    "path": "backend/app/services/support_assessment.py",
+    "source": "backend/app/services/support_assessment.py"
+  },
+  {
+    "path": "backend/app/services/vector_service.py",
+    "source": "backend/app/services/vector_service.py"
+  },
+  {
+    "path": "backend/app/services/__init__.py",
+    "source": "backend/app/services/__init__.py"
+  },
+  {
+    "path": "backend/app/services/evaluation/adjudication_v11.py",
+    "source": "backend/app/services/evaluation/adjudication_v11.py"
+  },
+  {
+    "path": "backend/app/services/evaluation/formal_dataset_loader.py",
+    "source": "backend/app/services/evaluation/formal_dataset_loader.py"
+  },
+  {
+    "path": "backend/app/services/evaluation/full_text_reference.py",
+    "source": "backend/app/services/evaluation/full_text_reference.py"
+  },
+  {
+    "path": "backend/app/services/evaluation/models.py",
+    "source": "backend/app/services/evaluation/models.py"
+  },
+  {
+    "path": "backend/app/services/evaluation/review_manager.py",
+    "source": "backend/app/services/evaluation/review_manager.py"
+  },
+  {
+    "path": "backend/app/services/evaluation/rubric_loader.py",
+    "source": "backend/app/services/evaluation/rubric_loader.py"
+  },
+  {
+    "path": "backend/app/services/evaluation/scoring_engine.py",
+    "source": "backend/app/services/evaluation/scoring_engine.py"
+  },
+  {
+    "path": "backend/app/services/evaluation/semantic_judge.py",
+    "source": "backend/app/services/evaluation/semantic_judge.py"
+  },
+  {
+    "path": "backend/app/services/evaluation/statistics_v11.py",
+    "source": "backend/app/services/evaluation/statistics_v11.py"
+  },
+  {
+    "path": "backend/app/services/evaluation/v11_rules.py",
+    "source": "backend/app/services/evaluation/v11_rules.py"
+  },
+  {
+    "path": "backend/app/services/evaluation/__init__.py",
+    "source": "backend/app/services/evaluation/__init__.py"
+  },
+  {
+    "path": "backend/scripts/build_evaluation_rubric.py",
+    "source": "backend/scripts/build_evaluation_rubric.py"
+  },
+  {
+    "path": "backend/scripts/build_unit1_v11_scores.py",
+    "source": "backend/scripts/build_unit1_v11_scores.py"
+  },
+  {
+    "path": "backend/scripts/import_unit1_v11_adjudications.py",
+    "source": "backend/scripts/import_unit1_v11_adjudications.py"
+  },
+  {
+    "path": "backend/scripts/recover_failed_scores.py",
+    "source": "backend/scripts/recover_failed_scores.py"
+  },
+  {
+    "path": "backend/scripts/rehearse_unit1_v11_adjudication.py",
+    "source": "backend/scripts/rehearse_unit1_v11_adjudication.py"
+  },
+  {
+    "path": "backend/scripts/run_evaluation.py",
+    "source": "backend/scripts/run_evaluation.py"
+  },
+  {
+    "path": "backend/scripts/summarize_unit1_v11.py",
+    "source": "backend/scripts/summarize_unit1_v11.py"
+  },
+  {
+    "path": "backend/scripts/__init__.py",
+    "source": "backend/scripts/__init__.py"
+  },
+  {
+    "path": "backend/tests/conftest.py",
+    "source": "backend/tests/conftest.py"
+  },
+  {
+    "path": "backend/tests/test_ai_service.py",
+    "source": "backend/tests/test_ai_service.py"
+  },
+  {
+    "path": "backend/tests/test_evaluation_batch.py",
+    "source": "backend/tests/test_evaluation_batch.py"
+  },
+  {
+    "path": "backend/tests/test_evaluation_recovery.py",
+    "source": "backend/tests/test_evaluation_recovery.py"
+  },
+  {
+    "path": "backend/tests/test_evaluation_review.py",
+    "source": "backend/tests/test_evaluation_review.py"
+  },
+  {
+    "path": "backend/tests/test_evaluation_rubric.py",
+    "source": "backend/tests/test_evaluation_rubric.py"
+  },
+  {
+    "path": "backend/tests/test_evaluation_scoring.py",
+    "source": "backend/tests/test_evaluation_scoring.py"
+  },
+  {
+    "path": "backend/tests/test_evaluation_v11.py",
+    "source": "backend/tests/test_evaluation_v11.py"
+  },
+  {
+    "path": "backend/tests/test_formal_evaluation_dataset.py",
+    "source": "backend/tests/test_formal_evaluation_dataset.py"
+  },
+  {
+    "path": "backend/tests/test_knowledge_api.py",
+    "source": "backend/tests/test_knowledge_api.py"
+  },
+  {
+    "path": "backend/tests/test_lesson4_candidate_vector_build.py",
+    "source": "backend/tests/test_lesson4_candidate_vector_build.py"
+  },
+  {
+    "path": "backend/tests/test_question_api.py",
+    "source": "backend/tests/test_question_api.py"
+  },
+  {
+    "path": "backend/tests/test_rag_service.py",
+    "source": "backend/tests/test_rag_service.py"
+  },
+  {
+    "path": "backend/tests/test_signed_keyword_retrieval.py",
+    "source": "backend/tests/test_signed_keyword_retrieval.py"
+  },
+  {
+    "path": "backend/tests/test_signed_textbook_import.py",
+    "source": "backend/tests/test_signed_textbook_import.py"
+  },
+  {
+    "path": "backend/tests/test_signed_textbook_migration_runner.py",
+    "source": "backend/tests/test_signed_textbook_migration_runner.py"
+  },
+  {
+    "path": "backend/tests/test_signed_textbook_service.py",
+    "source": "backend/tests/test_signed_textbook_service.py"
+  },
+  {
+    "path": "backend/tests/test_speech_api.py",
+    "source": "backend/tests/test_speech_api.py"
+  },
+  {
+    "path": "backend/tests/test_support_assessment.py",
+    "source": "backend/tests/test_support_assessment.py"
+  },
+  {
+    "path": "backend/tests/test_textbook_rag.py",
+    "source": "backend/tests/test_textbook_rag.py"
+  },
+  {
+    "path": "backend/tests/test_vector_index_cli.py",
+    "source": "backend/tests/test_vector_index_cli.py"
+  },
+  {
+    "path": "backend/tests/test_vector_service.py",
+    "source": "backend/tests/test_vector_service.py"
+  },
+  {
+    "path": "frontend/src/App.vue",
+    "source": "frontend/src/App.vue"
+  },
+  {
+    "path": "frontend/src/main.js",
+    "source": "frontend/src/main.js"
+  },
+  {
+    "path": "frontend/src/style.css",
+    "source": "frontend/src/style.css"
+  },
+  {
+    "path": "backend/requirements.txt",
+    "source": "backend/requirements.txt"
+  },
+  {
+    "path": "frontend/package.json",
+    "source": "frontend/package.json"
+  },
+  {
+    "path": "frontend/package-lock.json",
+    "source": "frontend/package-lock.json"
+  },
+  {
+    "path": "frontend/index.html",
+    "source": "frontend/index.html"
+  },
+  {
+    "path": "frontend/vite.config.js",
+    "source": "frontend/vite.config.js"
+  },
+  {
+    "path": ".env.example",
+    "source": ".env.example"
+  },
+  {
+    "path": "data/history_knowledge.json",
+    "source": "data/history_knowledge.json"
+  },
+  {
+    "path": "docs/evaluation/workbench/unit5-20-formalization-20261030/formal-import-20261101/scripts/accept_candidate_api_lesson4.py",
+    "source": "docs/evaluation/workbench/unit5-20-formalization-20261030/formal-import-20261101/scripts/accept_candidate_api_lesson4.py"
+  },
+  {
+    "path": "docs/evaluation/workbench/unit5-20-formalization-20261030/formal-import-20261101/scripts/apply_signed338_once.py",
+    "source": "docs/evaluation/workbench/unit5-20-formalization-20261030/formal-import-20261101/scripts/apply_signed338_once.py"
+  },
+  {
+    "path": "docs/evaluation/workbench/unit5-20-formalization-20261030/formal-import-20261101/scripts/build_candidate_vector_index.py",
+    "source": "docs/evaluation/workbench/unit5-20-formalization-20261030/formal-import-20261101/scripts/build_candidate_vector_index.py"
+  },
+  {
+    "path": "docs/evaluation/workbench/unit5-20-formalization-20261030/formal-import-20261101/scripts/build_candidate_vector_index_lesson4.py",
+    "source": "docs/evaluation/workbench/unit5-20-formalization-20261030/formal-import-20261101/scripts/build_candidate_vector_index_lesson4.py"
+  },
+  {
+    "path": "docs/evaluation/workbench/unit5-20-formalization-20261030/formal-import-20261101/scripts/inspect_manual_api_questions.py",
+    "source": "docs/evaluation/workbench/unit5-20-formalization-20261030/formal-import-20261101/scripts/inspect_manual_api_questions.py"
+  },
+  {
+    "path": "docs/evaluation/workbench/unit5-20-formalization-20261030/formal-import-20261101/scripts/run_candidate_api_lesson4.py",
+    "source": "docs/evaluation/workbench/unit5-20-formalization-20261030/formal-import-20261101/scripts/run_candidate_api_lesson4.py"
+  },
+  {
+    "path": "docs/evaluation/workbench/unit5-20-formalization-20261030/formal-import-20261101/scripts/run_candidate_api_manual.py",
+    "source": "docs/evaluation/workbench/unit5-20-formalization-20261030/formal-import-20261101/scripts/run_candidate_api_manual.py"
+  },
+  {
+    "path": "docs/evaluation/workbench/unit5-20-formalization-20261030/formal-import-20261101/scripts/verify_candidate_vector_index.py",
+    "source": "docs/evaluation/workbench/unit5-20-formalization-20261030/formal-import-20261101/scripts/verify_candidate_vector_index.py"
+  },
+  {
+    "path": "docs/evaluation/workbench/unit5-20-formalization-20261030/formal-import-20261101/scripts/verify_candidate_vector_index_lesson4.py",
+    "source": "docs/evaluation/workbench/unit5-20-formalization-20261030/formal-import-20261101/scripts/verify_candidate_vector_index_lesson4.py"
+  },
+  {
+    "path": "docs/evaluation/workbench/unit5-20-formalization-20261030/formal-import-20261101/scripts/verify_formal_migration.py",
+    "source": "docs/evaluation/workbench/unit5-20-formalization-20261030/formal-import-20261101/scripts/verify_formal_migration.py"
+  },
+  {
+    "path": "docs/evaluation/workbench/unit5-20-formalization-20261030/formal-import-20261101/scripts/verify_signed338_import.py",
+    "source": "docs/evaluation/workbench/unit5-20-formalization-20261030/formal-import-20261101/scripts/verify_signed338_import.py"
+  },
+  {
+    "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_01_K05-01_to_K05-05_signoff.md",
+    "source": "public_release/docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_01_K05-01_to_K05-05_signoff.md"
+  },
+  {
+    "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_02_K06-01_to_K06-05_signoff.md",
+    "source": "public_release/docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_02_K06-01_to_K06-05_signoff.md"
+  },
+  {
+    "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_03_K07-01_to_K07-05_signoff.md",
+    "source": "public_release/docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_03_K07-01_to_K07-05_signoff.md"
+  },
+  {
+    "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_04_K08-01_to_K08-05_signoff.md",
+    "source": "public_release/docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_04_K08-01_to_K08-05_signoff.md"
+  },
+  {
+    "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_05_K09-01_to_K09-03_signoff.md",
+    "source": "public_release/docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_05_K09-01_to_K09-03_signoff.md"
+  },
+  {
+    "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_06_K10-01_to_K10-03_signoff.md",
+    "source": "public_release/docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_06_K10-01_to_K10-03_signoff.md"
+  },
+  {
+    "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_07_K11-01_to_K11-02_signoff.md",
+    "source": "public_release/docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_07_K11-01_to_K11-02_signoff.md"
+  },
+  {
+    "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_08_K12-01_to_K12-03_signoff.md",
+    "source": "public_release/docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_08_K12-01_to_K12-03_signoff.md"
+  },
+  {
+    "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_09_K13-01_to_K13-03_signoff.md",
+    "source": "public_release/docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_09_K13-01_to_K13-03_signoff.md"
+  },
+  {
+    "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_10_K14-01_to_K14-03_signoff.md",
+    "source": "public_release/docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_10_K14-01_to_K14-03_signoff.md"
+  },
+  {
+    "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_11_K15-01_to_K15-03_signoff.md",
+    "source": "public_release/docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_11_K15-01_to_K15-03_signoff.md"
+  },
+  {
+    "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_12_K16-01_to_K16-04_signoff.md",
+    "source": "public_release/docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_12_K16-01_to_K16-04_signoff.md"
+  },
+  {
+    "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_13_K17-01_to_K17-04_signoff.md",
+    "source": "public_release/docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_13_K17-01_to_K17-04_signoff.md"
+  },
+  {
+    "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_14_K18-01_to_K20-04_signoff.md",
+    "source": "public_release/docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_14_K18-01_to_K20-04_signoff.md"
+  },
+  {
+    "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_15_R01_to_R05_signoff.md",
+    "source": "public_release/docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_15_R01_to_R05_signoff.md"
+  },
+  {
+    "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_16_R06_to_R10_signoff.md",
+    "source": "public_release/docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_16_R06_to_R10_signoff.md"
+  },
+  {
+    "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_17_R11_to_R15_signoff.md",
+    "source": "public_release/docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_17_R11_to_R15_signoff.md"
+  },
+  {
+    "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_18_R16_to_R20_signoff.md",
+    "source": "public_release/docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_18_R16_to_R20_signoff.md"
+  },
+  {
+    "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/evaluation_80_questions_master_signoff_ledger_v2.4.md",
+    "source": "public_release/docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/evaluation_80_questions_master_signoff_ledger_v2.4.md"
+  },
+  {
+    "path": "docs/evaluation/workbench/unit1_v1.1/scoring_rules.json",
+    "source": "public_release/docs/evaluation/workbench/unit1_v1.1/scoring_rules.json"
+  },
+  {
+    "path": "docs/evaluation/workbench/unit1_v1.1/signoffs/unit1_v1.1_AB_17项用户签核台账.md",
+    "source": "public_release/docs/evaluation/workbench/unit1_v1.1/signoffs/unit1_v1.1_AB_17项用户签核台账.md"
+  },
+  {
+    "path": "docs/evaluation/workbench/unit1_v1.1/signoffs/unit1_v1.1_C类37项用户签核台账.csv",
+    "source": "public_release/docs/evaluation/workbench/unit1_v1.1/signoffs/unit1_v1.1_C类37项用户签核台账.csv"
+  },
+  {
+    "path": "docs/evaluation/workbench/unit1_v1.1/signoffs/unit1_v1.1_C类37项用户签核台账.md",
+    "source": "public_release/docs/evaluation/workbench/unit1_v1.1/signoffs/unit1_v1.1_C类37项用户签核台账.md"
+  },
+  {
+    "path": "docs/evaluation/workbench/unit1_v1.1/signoffs/unit1_v1.1_d_16_signoff_record.md",
+    "source": "public_release/docs/evaluation/workbench/unit1_v1.1/signoffs/unit1_v1.1_d_16_signoff_record.md"
+  },
+  {
+    "path": "docs/evaluation/workbench/final_analysis/HistoryAI-System_三模式实验结果汇总.csv",
+    "source": "public_release/docs/evaluation/workbench/final_analysis/HistoryAI-System_三模式实验结果汇总.csv"
+  },
+  {
+    "path": "docs/evaluation/workbench/rescoring/unit1_v1.1_overlay_deterministic_remap_v1/manifest.json",
+    "source": "public_release/docs/evaluation/workbench/rescoring/unit1_v1.1_overlay_deterministic_remap_v1/manifest.json"
+  },
+  {
+    "path": "docs/evaluation/workbench/rescoring/unit1_v1.1_overlay_deterministic_remap_v1/original_integrity_report.json",
+    "source": "public_release/docs/evaluation/workbench/rescoring/unit1_v1.1_overlay_deterministic_remap_v1/original_integrity_report.json"
+  },
+  {
+    "path": "docs/evaluation/workbench/rescoring/unit1_v1.1_overlay_deterministic_remap_v1/formal100-keyword-20261105-01/combined_score_index.jsonl",
+    "source": "public_release/docs/evaluation/workbench/rescoring/unit1_v1.1_overlay_deterministic_remap_v1/formal100-keyword-20261105-01/combined_score_index.jsonl"
+  },
+  {
+    "path": "docs/evaluation/workbench/rescoring/unit1_v1.1_overlay_deterministic_remap_v1/formal100-keyword-20261105-01/source_manifest.json",
+    "source": "public_release/docs/evaluation/workbench/rescoring/unit1_v1.1_overlay_deterministic_remap_v1/formal100-keyword-20261105-01/source_manifest.json"
+  },
+  {
+    "path": "docs/evaluation/workbench/rescoring/unit1_v1.1_overlay_deterministic_remap_v1/formal100-keyword-20261105-01/summary.json",
+    "source": "public_release/docs/evaluation/workbench/rescoring/unit1_v1.1_overlay_deterministic_remap_v1/formal100-keyword-20261105-01/summary.json"
+  },
+  {
+    "path": "docs/evaluation/workbench/rescoring/unit1_v1.1_overlay_deterministic_remap_v1/formal100-keyword-20261105-01/summary.md",
+    "source": "public_release/docs/evaluation/workbench/rescoring/unit1_v1.1_overlay_deterministic_remap_v1/formal100-keyword-20261105-01/summary.md"
+  },
+  {
+    "path": "docs/evaluation/workbench/rescoring/unit1_v1.1_overlay_deterministic_remap_v1/formal100-none-20261105-01/combined_score_index.jsonl",
+    "source": "public_release/docs/evaluation/workbench/rescoring/unit1_v1.1_overlay_deterministic_remap_v1/formal100-none-20261105-01/combined_score_index.jsonl"
+  },
+  {
+    "path": "docs/evaluation/workbench/rescoring/unit1_v1.1_overlay_deterministic_remap_v1/formal100-none-20261105-01/source_manifest.json",
+    "source": "public_release/docs/evaluation/workbench/rescoring/unit1_v1.1_overlay_deterministic_remap_v1/formal100-none-20261105-01/source_manifest.json"
+  },
+  {
+    "path": "docs/evaluation/workbench/rescoring/unit1_v1.1_overlay_deterministic_remap_v1/formal100-none-20261105-01/summary.json",
+    "source": "public_release/docs/evaluation/workbench/rescoring/unit1_v1.1_overlay_deterministic_remap_v1/formal100-none-20261105-01/summary.json"
+  },
+  {
+    "path": "docs/evaluation/workbench/rescoring/unit1_v1.1_overlay_deterministic_remap_v1/formal100-none-20261105-01/summary.md",
+    "source": "public_release/docs/evaluation/workbench/rescoring/unit1_v1.1_overlay_deterministic_remap_v1/formal100-none-20261105-01/summary.md"
+  },
+  {
+    "path": "docs/evaluation/workbench/rescoring/unit1_v1.1_overlay_deterministic_remap_v1/formal100-none-20261105-01/unit1_overlay_scores.jsonl",
+    "source": "public_release/docs/evaluation/workbench/rescoring/unit1_v1.1_overlay_deterministic_remap_v1/formal100-none-20261105-01/unit1_overlay_scores.jsonl"
+  },
+  {
+    "path": "docs/evaluation/workbench/rescoring/unit1_v1.1_overlay_deterministic_remap_v1/formal100-vector-20261105-01/combined_score_index.jsonl",
+    "source": "public_release/docs/evaluation/workbench/rescoring/unit1_v1.1_overlay_deterministic_remap_v1/formal100-vector-20261105-01/combined_score_index.jsonl"
+  },
+  {
+    "path": "docs/evaluation/workbench/rescoring/unit1_v1.1_overlay_deterministic_remap_v1/formal100-vector-20261105-01/source_manifest.json",
+    "source": "public_release/docs/evaluation/workbench/rescoring/unit1_v1.1_overlay_deterministic_remap_v1/formal100-vector-20261105-01/source_manifest.json"
+  },
+  {
+    "path": "docs/evaluation/workbench/rescoring/unit1_v1.1_overlay_deterministic_remap_v1/formal100-vector-20261105-01/summary.json",
+    "source": "public_release/docs/evaluation/workbench/rescoring/unit1_v1.1_overlay_deterministic_remap_v1/formal100-vector-20261105-01/summary.json"
+  },
+  {
+    "path": "docs/evaluation/workbench/rescoring/unit1_v1.1_overlay_deterministic_remap_v1/formal100-vector-20261105-01/summary.md",
+    "source": "public_release/docs/evaluation/workbench/rescoring/unit1_v1.1_overlay_deterministic_remap_v1/formal100-vector-20261105-01/summary.md"
+  },
+  {
+    "path": "docs/evaluation/workbench/rescoring/unit1_v1.1_overlay_deterministic_remap_v1/formal100-keyword-20261105-01/source_snapshot/summary.json",
+    "source": "public_release/docs/evaluation/workbench/rescoring/unit1_v1.1_overlay_deterministic_remap_v1/formal100-keyword-20261105-01/source_snapshot/summary.json"
+  },
+  {
+    "path": "docs/evaluation/workbench/rescoring/unit1_v1.1_overlay_deterministic_remap_v1/formal100-none-20261105-01/source_snapshot/summary.json",
+    "source": "public_release/docs/evaluation/workbench/rescoring/unit1_v1.1_overlay_deterministic_remap_v1/formal100-none-20261105-01/source_snapshot/summary.json"
+  },
+  {
+    "path": "docs/evaluation/workbench/rescoring/unit1_v1.1_overlay_deterministic_remap_v1/formal100-vector-20261105-01/source_snapshot/summary.json",
+    "source": "public_release/docs/evaluation/workbench/rescoring/unit1_v1.1_overlay_deterministic_remap_v1/formal100-vector-20261105-01/source_snapshot/summary.json"
+  },
+  {
+    "path": "docs/evaluation/releases/formal_100_v1.0/formal_evaluation_100.json",
+    "source": "public_release/docs/evaluation/releases/formal_100_v1.0/formal_evaluation_100.json"
+  },
+  {
+    "path": "docs/evaluation/releases/formal_100_v1.0/MANIFEST.json",
+    "source": "public_release/docs/evaluation/releases/formal_100_v1.0/MANIFEST.json"
+  },
+  {
+    "path": "docs/evaluation/public_scores/human_final_criteria.json",
+    "source": "docs/evaluation/workbench/manual_review/100题三模式人工审核汇总表.xlsx"
+  },
+  {
+    "path": "docs/evaluation/public_scores/human_question_summary.json",
+    "source": "docs/evaluation/workbench/manual_review/100题三模式人工审核汇总表.xlsx"
+  },
+  {
+    "path": "SCORING_PUBLICATION_AUDIT.md",
+    "source": "generated"
+  },
+  {
+    "path": "docs/evaluation/workbench/final_analysis/figures/01_三模式总体人工得分率.png",
+    "source": "docs/evaluation/workbench/final_analysis/figures/01_三模式总体人工得分率.png"
+  },
+  {
+    "path": "docs/evaluation/workbench/final_analysis/figures/02_QKR分组人工得分率.png",
+    "source": "docs/evaluation/workbench/final_analysis/figures/02_QKR分组人工得分率.png"
+  },
+  {
+    "path": "docs/evaluation/workbench/final_analysis/figures/03_三模式平均得分.png",
+    "source": "docs/evaluation/workbench/final_analysis/figures/03_三模式平均得分.png"
+  },
+  {
+    "path": "docs/evaluation/workbench/final_analysis/figures/04_自动评分与人工评分差异.png",
+    "source": "docs/evaluation/workbench/final_analysis/figures/04_自动评分与人工评分差异.png"
+  },
+  {
+    "path": "docs/evaluation/workbench/final_analysis/figures/05_RAG证据使用情况.png",
+    "source": "docs/evaluation/workbench/final_analysis/figures/05_RAG证据使用情况.png"
+  },
+  {
+    "path": "docs/evaluation/workbench/final_analysis/figures/06_典型案例对比.png",
+    "source": "docs/evaluation/workbench/final_analysis/figures/06_典型案例对比.png"
+  },
+  {
+    "path": "GIT_HISTORY_EXPOSURE_REPORT.md",
+    "source": "generated"
+  },
+  {
+    "path": ".gitignore",
+    "source": "generated"
+  }
+]

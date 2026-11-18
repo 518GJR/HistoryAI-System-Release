@@ -1,0 +1,44 @@
+{
+  "schema_version": "historyai-isolated-deterministic-remap-summary-v1",
+  "remap_version": "unit1_v1.1_overlay_deterministic_remap_v1",
+  "scoring_version": "deterministic-v1.1-overlay+formal-preserve-v1-r1",
+  "source_run_id": "formal100-vector-20261105-01",
+  "mode": "vector",
+  "semantic_model_calls": 0,
+  "answer_generation_calls": 0,
+  "source_response_count": 100,
+  "source_score_count": 100,
+  "unit1_q_processed_count": 20,
+  "unit1_q_automatic_complete_count": 4,
+  "unit1_q_needs_review_count": 16,
+  "unit1_q_answer_level_guard_count": 4,
+  "unit1_q_pending_criterion_instance_count": 29,
+  "unit1_q_final_label_counts": {
+    "correct": 2,
+    "partial": 1,
+    "incorrect": 1
+  },
+  "unit1_q_rule_mapping_instances": {
+    "preserved_existing_a": 15,
+    "confirmed_signed": 70,
+    "pending_manual_d": 22,
+    "deferred_a": 2
+  },
+  "preserved_k_r_record_count": 80,
+  "preserved_k_r_criterion_count": 373,
+  "preserved_k_r_needs_review_count": 6,
+  "preserved_k_r_final_label_counts": {
+    "partial": 10,
+    "incorrect": 46,
+    "correct": 18,
+    "None": 6
+  },
+  "combined_index_count": 100,
+  "combined_unique_question_count": 100,
+  "human_final_decision_count": 0,
+  "formal_accuracy_available_for_pending_q": false,
+  "formal_accuracy_note": "Q records with needs_review are not counted as human-final decisions.",
+  "source_files_preserved": true,
+  "k_r_scores_recalculated": false,
+  "original_results_overwritten": false
+}

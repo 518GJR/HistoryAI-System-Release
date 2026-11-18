@@ -1,0 +1,788 @@
+{
+  "schema_version": "historyai-evaluation-rules-v1",
+  "rule_version": "unit1_v1.1",
+  "base_rubric_version": "unit1_v1.0",
+  "question_max_score": 10.0,
+  "score_precision": 2,
+  "answer_label_thresholds": {
+    "correct_min": 8.5,
+    "partial_min": 3.5,
+    "major_error_forces_incorrect": true
+  },
+  "provenance": {
+    "activation_basis": "user_signoffs_2026-10-27_70_rules",
+    "latest_boundary_summary_status": "user_confirmed_v1.1",
+    "formal_signoff_gap": false,
+    "formal_signoff_gap_note": "A类9项、B类8项、C类37项、D类16项签核文件已归档并完成配置对照；A类2项和D类22项继续人工复核。",
+    "signoff_files": [
+      {
+        "path": "docs/evaluation/workbench/unit1_v1.1/signoffs/unit1_v1.1_AB_17项用户签核台账.md",
+        "sha256": "c27864bf50f98ecfc1e257747b0cffdb2aa97f0240593866c50987f67a768985"
+      },
+      {
+        "path": "docs/evaluation/workbench/unit1_v1.1/signoffs/unit1_v1.1_C类37项用户签核台账.csv",
+        "sha256": "c2d280ab4e0678e7d66ea14d7856728597589ea68f0d69f37a8398a539c639c2"
+      },
+      {
+        "path": "docs/evaluation/workbench/unit1_v1.1/signoffs/unit1_v1.1_C类37项用户签核台账.md",
+        "sha256": "67638b75b217854fe114b8fdb22b3c609125f0eea2eb0657c12a34d592430178"
+      },
+      {
+        "path": "docs/evaluation/workbench/unit1_v1.1/signoffs/unit1_v1.1_d_16_signoff_record.md",
+        "sha256": "de187f7110d39d3e5b4446962feb62b1f1e2624c88b876f7ef0c7901c3eb9c33"
+      }
+    ]
+  },
+  "confirmed_rule_count": 70,
+  "confirmed_rule_counts": {
+    "A": 9,
+    "B": 8,
+    "C": 37,
+    "D": 16
+  },
+  "preserved_existing_a_rule_count": 15,
+  "deferred_a_rule_count": 2,
+  "manual_rule_count": 22,
+  "global_rule_signoffs": {
+    "G01": "pending_not_signed_off",
+    "G02": "pending_not_signed_off",
+    "G03": "user_confirmed_v1.1",
+    "G04": "user_confirmed_v1.1",
+    "G05": "pending_not_signed_off"
+  },
+  "preserved_existing_a_rules": [
+    "Q001-C01",
+    "Q001-C02",
+    "Q001-C03",
+    "Q002-C01",
+    "Q002-C02",
+    "Q003-C02",
+    "Q003-C03",
+    "Q004-C01",
+    "Q004-C02",
+    "Q007-C02",
+    "Q011-C01",
+    "Q011-C02",
+    "Q011-C03",
+    "Q011-C04",
+    "Q011-C05"
+  ],
+  "deferred_a_rules": [
+    {
+      "criterion_id": "Q014-C06",
+      "weight": 2.5,
+      "reason": "私有制、阶级、国家的候选平均拆分暂缓签核"
+    },
+    {
+      "criterion_id": "Q015-C05",
+      "weight": 2.0,
+      "reason": "贵族墓和普通墓的对比关系暂缓签核"
+    }
+  ],
+  "confirmed_non_d_rules": [
+    {
+      "criterion_id": "Q005-C05",
+      "classification": "A",
+      "weight": 3.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "partial_score": 1.5
+    },
+    {
+      "criterion_id": "Q008-C05",
+      "classification": "A",
+      "weight": 1.5,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "partial_score": 0.75
+    },
+    {
+      "criterion_id": "Q008-C06",
+      "classification": "A",
+      "weight": 2.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "partial_score": 1.0
+    },
+    {
+      "criterion_id": "Q015-C03",
+      "classification": "A",
+      "weight": 2.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "partial_score": 1.0
+    },
+    {
+      "criterion_id": "Q016-C01",
+      "classification": "A",
+      "weight": 1.5,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "partial_score": 0.75
+    },
+    {
+      "criterion_id": "Q016-C03",
+      "classification": "A",
+      "weight": 1.5,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "component_sum_review",
+      "component_weights": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "criterion_id": "Q017-C01",
+      "classification": "A",
+      "weight": 2.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "component_sum_review",
+      "component_weights": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    {
+      "criterion_id": "Q017-C02",
+      "classification": "A",
+      "weight": 1.5,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "partial_score": 0.75
+    },
+    {
+      "criterion_id": "Q018-C01",
+      "classification": "A",
+      "weight": 1.5,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "component_sum_review",
+      "component_weights": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "review": "部分覆盖时需核对三流域及约5000年前限定语"
+    },
+    {
+      "criterion_id": "Q003-C04",
+      "classification": "B",
+      "weight": 2.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "partial_score": 1.0
+    },
+    {
+      "criterion_id": "Q004-C04",
+      "classification": "B",
+      "weight": 2.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "partial_score": 1.0
+    },
+    {
+      "criterion_id": "Q005-C06",
+      "classification": "B",
+      "weight": 3.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_zero_partial_review"
+    },
+    {
+      "criterion_id": "Q009-C04",
+      "classification": "B",
+      "weight": 1.5,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "partial_score": 0.75
+    },
+    {
+      "criterion_id": "Q009-C06",
+      "classification": "B",
+      "weight": 1.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_zero_partial_review"
+    },
+    {
+      "criterion_id": "Q012-C04",
+      "classification": "B",
+      "weight": 1.5,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "partial_score": 0.75
+    },
+    {
+      "criterion_id": "Q015-C01",
+      "classification": "B",
+      "weight": 1.5,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "partial_score": 0.75
+    },
+    {
+      "criterion_id": "Q015-C04",
+      "classification": "B",
+      "weight": 1.5,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "partial_score": 0.75
+    },
+    {
+      "criterion_id": "Q001-C04",
+      "classification": "C",
+      "weight": 1.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "partial_score": 0.5
+    },
+    {
+      "criterion_id": "Q002-C03",
+      "classification": "C",
+      "weight": 1.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_zero_partial_review"
+    },
+    {
+      "criterion_id": "Q002-C04",
+      "classification": "C",
+      "weight": 2.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_zero_partial_review"
+    },
+    {
+      "criterion_id": "Q004-C05",
+      "classification": "C",
+      "weight": 1.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "partial_score": 0.5
+    },
+    {
+      "criterion_id": "Q005-C01",
+      "classification": "C",
+      "weight": 1.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_zero_partial_review"
+    },
+    {
+      "criterion_id": "Q005-C02",
+      "classification": "C",
+      "weight": 1.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_zero_partial_review"
+    },
+    {
+      "criterion_id": "Q005-C03",
+      "classification": "C",
+      "weight": 1.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "partial_score": 0.5
+    },
+    {
+      "criterion_id": "Q005-C04",
+      "classification": "C",
+      "weight": 1.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_zero_partial_review"
+    },
+    {
+      "criterion_id": "Q006-C02",
+      "classification": "C",
+      "weight": 1.5,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_zero_partial_review"
+    },
+    {
+      "criterion_id": "Q006-C04",
+      "classification": "C",
+      "weight": 1.5,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_zero_partial_review"
+    },
+    {
+      "criterion_id": "Q007-C01",
+      "classification": "C",
+      "weight": 1.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "partial_score": 0.5
+    },
+    {
+      "criterion_id": "Q007-C03",
+      "classification": "C",
+      "weight": 2.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_zero_partial_review"
+    },
+    {
+      "criterion_id": "Q008-C01",
+      "classification": "C",
+      "weight": 1.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "partial_score": 0.5
+    },
+    {
+      "criterion_id": "Q008-C02",
+      "classification": "C",
+      "weight": 2.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_zero_partial_review"
+    },
+    {
+      "criterion_id": "Q008-C04",
+      "classification": "C",
+      "weight": 1.5,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_zero_partial_review"
+    },
+    {
+      "criterion_id": "Q009-C02",
+      "classification": "C",
+      "weight": 1.5,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "partial_score": 0.75
+    },
+    {
+      "criterion_id": "Q010-C01",
+      "classification": "C",
+      "weight": 2.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "partial_score": 1.0
+    },
+    {
+      "criterion_id": "Q010-C03",
+      "classification": "C",
+      "weight": 1.5,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_zero_partial_review"
+    },
+    {
+      "criterion_id": "Q010-C04",
+      "classification": "C",
+      "weight": 1.5,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "partial_score": 0.75
+    },
+    {
+      "criterion_id": "Q012-C01",
+      "classification": "C",
+      "weight": 1.5,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "partial_score": 0.75
+    },
+    {
+      "criterion_id": "Q012-C02",
+      "classification": "C",
+      "weight": 1.5,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_zero_partial_review"
+    },
+    {
+      "criterion_id": "Q012-C03",
+      "classification": "C",
+      "weight": 2.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "partial_score": 1.0
+    },
+    {
+      "criterion_id": "Q012-C05",
+      "classification": "C",
+      "weight": 1.5,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_zero_partial_review"
+    },
+    {
+      "criterion_id": "Q012-C06",
+      "classification": "C",
+      "weight": 2.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_zero_partial_review"
+    },
+    {
+      "criterion_id": "Q013-C01",
+      "classification": "C",
+      "weight": 1.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "partial_score": 0.5
+    },
+    {
+      "criterion_id": "Q013-C02",
+      "classification": "C",
+      "weight": 2.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "partial_score": 1.0
+    },
+    {
+      "criterion_id": "Q013-C04",
+      "classification": "C",
+      "weight": 2.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_zero_partial_review"
+    },
+    {
+      "criterion_id": "Q015-C02",
+      "classification": "C",
+      "weight": 1.5,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_zero_partial_review"
+    },
+    {
+      "criterion_id": "Q016-C04",
+      "classification": "C",
+      "weight": 1.5,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_zero_partial_review"
+    },
+    {
+      "criterion_id": "Q017-C03",
+      "classification": "C",
+      "weight": 1.5,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_zero_partial_review"
+    },
+    {
+      "criterion_id": "Q018-C02",
+      "classification": "C",
+      "weight": 1.5,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "partial_score": 0.75
+    },
+    {
+      "criterion_id": "Q018-C03",
+      "classification": "C",
+      "weight": 1.5,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "partial_score": 0.75
+    },
+    {
+      "criterion_id": "Q018-C04",
+      "classification": "C",
+      "weight": 1.5,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_zero_partial_review"
+    },
+    {
+      "criterion_id": "Q019-C05",
+      "classification": "C",
+      "weight": 2.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_zero_partial_review"
+    },
+    {
+      "criterion_id": "Q020-C01",
+      "classification": "C",
+      "weight": 2.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "partial_score": 1.0
+    },
+    {
+      "criterion_id": "Q020-C02",
+      "classification": "C",
+      "weight": 2.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "partial_score": 1.0
+    },
+    {
+      "criterion_id": "Q020-C05",
+      "classification": "C",
+      "weight": 2.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "partial_score": 1.0
+    }
+  ],
+  "confirmed_rules": [
+    {
+      "criterion_id": "Q004-C03",
+      "weight": 3.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "full": "北京人打制石器；山顶洞人继续使用打制石器并制作骨器、掌握磨光和钻孔技术。",
+      "partial": "比较方向正确且有可核验工具事实，但只覆盖骨器、磨光、钻孔中的部分事实。",
+      "zero": "未回答工具技术，或只有无法核验的笼统比较。",
+      "review": "技术归属含混、仅称都用石器或遗漏是否实质存在争议。"
+    },
+    {
+      "criterion_id": "Q006-C05",
+      "weight": 2.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "full": "同时表达头部原始特征与肢体、直立行走接近现代人的方面。",
+      "partial": "仅正确表达其中一面且没有相反表述。",
+      "zero": "未作综合概括或直接等同现代人/猿。",
+      "review": "像现代人或原始等表述的适用范围不清。"
+    },
+    {
+      "criterion_id": "Q009-C01",
+      "weight": 2.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "full": "河姆渡人主要居住干栏式房屋，并严格表述遗址发现木结构水井。",
+      "partial": "仅答干栏式房屋或仅答遗址发现木结构水井。",
+      "zero": "两项均未涉及或不能定位到河姆渡。",
+      "review": "将发现水井扩写为使用行为且错误程度不清。"
+    },
+    {
+      "criterion_id": "Q009-C03",
+      "weight": 2.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_zero_partial_review",
+      "full": "骨耜广泛使用，并与稻作农业已有相当规模建立正确联系。",
+      "partial": "欠限定或只覆盖证据、结论一端时分值未确定。",
+      "zero": "未涉及骨耜或规模化稻作且未建立正确联系。",
+      "review": "欠限定但事实正确、关系含混或部分覆盖时必须人工复核。"
+    },
+    {
+      "criterion_id": "Q013-C05",
+      "weight": 2.5,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "partial_score": 1.25,
+      "full": "生产力较高结论与精细复杂制陶能力及冻结证据正确关联。",
+      "partial": "结论正确且至少给出一项明确冻结证据，但遗漏其余证据。",
+      "zero": "没有生产力结论和证据联系，或关系无关。",
+      "review": "只答结论无证据，或只有证据没有明确结论。"
+    },
+    {
+      "criterion_id": "Q014-C01",
+      "weight": 1.5,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "full": "完整表达农业、畜牧业发展推动人口增长并向区域中心集中的因果链。",
+      "partial": "关系方向正确，但遗漏农业/畜牧之一或人口增长/集中之一。",
+      "zero": "仅罗列事实但没有正确关系，或没有相关事实。",
+      "review": "关系方向不清或遗漏是否实质存在争议。"
+    },
+    {
+      "criterion_id": "Q014-C03",
+      "weight": 1.5,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "full": "社会分化加剧，并出现脱离生产劳动、从事管理的专门管理者。",
+      "partial": "仅正确说明社会分化或专门管理者出现。",
+      "zero": "两端均未涉及或只有无法定位的泛化管理表述。",
+      "review": "管理者是否具有脱离生产劳动的专门性存在争议。"
+    },
+    {
+      "criterion_id": "Q014-C04",
+      "weight": 2.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "partial_score": 1.0,
+      "full": "出现王，并明确其掌握政治、经济、军事和祭祀权力。",
+      "partial": "出现王并体现统治或管理权力，但权力领域不完整。",
+      "zero": "仅出现王而没有任何权力信息，或没有相关事实。",
+      "review": "过于笼统的管理权力不得自动满分；主体或权力归属含混时人工复核。"
+    },
+    {
+      "criterion_id": "Q014-C05",
+      "weight": 1.5,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "strict_all_or_zero_review",
+      "partial_score": 0.75,
+      "required_partial_markers": {
+        "internal_rule": [
+          "对内统治",
+          "内部统治"
+        ],
+        "external_war": [
+          "对外战争",
+          "对外征战",
+          "发动战争"
+        ]
+      },
+      "full": "以王为首的统治阶级对内统治、对外战争，并形成早期国家。",
+      "partial": "同时具备对内统治与对外战争但遗漏形成早期国家结论时得0.75；缺少两项行为任一项即0分。",
+      "zero": "缺少对内统治或对外战争任一项，或没有过程链。",
+      "review": "仅答形成国家、或是否完整覆盖两项活动无法确定。"
+    },
+    {
+      "criterion_id": "Q015-C06",
+      "weight": 1.5,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "full": "同时得出良渚阶级分化明显和已出现早期国家。",
+      "partial": "仅正确得出其中一项且没有相反表述。",
+      "zero": "两项结论均缺失或结论相反。",
+      "review": "结论证据不属于良渚或国家表述强度不清。"
+    },
+    {
+      "criterion_id": "Q016-C02",
+      "weight": 1.5,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "full": "陶寺大型墓葬有随葬品，并列出陶鼓、石磬、玉钺、陶盘至少一项。",
+      "partial": "只答大型墓葬有随葬品，或只列正确器物但墓葬归属缺失。",
+      "zero": "大型墓葬和随葬品事实均缺失或器物不能对应。",
+      "review": "器物名称近似或墓葬归属不清。"
+    },
+    {
+      "criterion_id": "Q016-C05",
+      "weight": 2.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "full": "大型墓随葬品来源广泛，并得出各地文化因素汇聚中原。",
+      "partial": "仅覆盖证据或结论一端。",
+      "zero": "证据和结论均缺失或关系相反。",
+      "review": "关系含混或中原主体缺失是否实质存在争议。"
+    },
+    {
+      "criterion_id": "Q017-C06",
+      "weight": 2.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_special_partial_zero_review",
+      "special_partial": {
+        "score": 1.0,
+        "exact_evidence": "都是早期文明的重要遗址",
+        "non_generalizable": true
+      },
+      "full": "两地都反映社会分化和统治组织发展、均出现早期国家并体现文明起源多元性。",
+      "partial": "仅特批精确边界样例可自动给1分，其他不完整结论人工复核。",
+      "zero": "没有共同结论或结论相反。",
+      "review": "多层结论覆盖不全、仅称都是文明，或多元性含义不清。"
+    },
+    {
+      "criterion_id": "Q018-C05",
+      "weight": 2.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_review",
+      "full": "距今4000多年，中原广泛吸收各地文明要素后迅速崛起。",
+      "partial": "主体和过程正确但遗漏时间，或时间和主体正确但遗漏崛起结果。",
+      "zero": "阶段、主体和吸收过程均未正确表达。",
+      "review": "阶段归属含混或将广泛吸收写成单向取代。"
+    },
+    {
+      "criterion_id": "Q018-C06",
+      "weight": 2.0,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_context_review",
+      "context_review_phrase": "以中原为中心",
+      "full": "以中原为引领、文明持续走向一体并形成新的文明格局。",
+      "partial": "主体与方向正确但遗漏新格局，或新格局与方向正确但遗漏中原引领。",
+      "zero": "三层关系均缺失或关系相反。",
+      "review": "以中原为中心必须结合上下文判断；引领被写成取代或一体化方向含混。"
+    },
+    {
+      "criterion_id": "Q019-C06",
+      "weight": 1.5,
+      "approval_status": "user_confirmed_v1.1",
+      "scoring_policy": "full_half_zero_context_review",
+      "manual_review_exact_evidence": "炎黄二帝是人文初祖",
+      "manual_review_when_contains": "人文初祖",
+      "manual_review_unless_contains_any": [
+        "相传",
+        "传说",
+        "据传"
+      ],
+      "full": "炎帝、黄帝被尊为中华民族人文初祖，并明确属于远古传说、不能当作已证实史实。",
+      "partial": "保留传说限定且只覆盖一端时可候选半分；事实化表述不适用。",
+      "zero": "两项均未涉及或将传说明确宣称为已证实史实。",
+      "review": "仅回答炎黄二帝是人文初祖必须人工复核；弱限定或上下文不清也复核。"
+    }
+  ],
+  "manual_rules": [
+    {
+      "criterion_id": "Q003-C01",
+      "weight": 2.0
+    },
+    {
+      "criterion_id": "Q006-C01",
+      "weight": 3.0
+    },
+    {
+      "criterion_id": "Q006-C03",
+      "weight": 2.0
+    },
+    {
+      "criterion_id": "Q007-C04",
+      "weight": 2.0
+    },
+    {
+      "criterion_id": "Q007-C05",
+      "weight": 2.0
+    },
+    {
+      "criterion_id": "Q008-C03",
+      "weight": 2.0
+    },
+    {
+      "criterion_id": "Q009-C05",
+      "weight": 2.0
+    },
+    {
+      "criterion_id": "Q010-C02",
+      "weight": 2.0
+    },
+    {
+      "criterion_id": "Q010-C05",
+      "weight": 3.0
+    },
+    {
+      "criterion_id": "Q011-C06",
+      "weight": 1.0
+    },
+    {
+      "criterion_id": "Q013-C03",
+      "weight": 2.5
+    },
+    {
+      "criterion_id": "Q014-C02",
+      "weight": 1.0
+    },
+    {
+      "criterion_id": "Q016-C06",
+      "weight": 2.0,
+      "always_manual": true
+    },
+    {
+      "criterion_id": "Q017-C04",
+      "weight": 1.5
+    },
+    {
+      "criterion_id": "Q017-C05",
+      "weight": 1.5
+    },
+    {
+      "criterion_id": "Q019-C01",
+      "weight": 1.0
+    },
+    {
+      "criterion_id": "Q019-C02",
+      "weight": 2.0
+    },
+    {
+      "criterion_id": "Q019-C03",
+      "weight": 2.0
+    },
+    {
+      "criterion_id": "Q019-C04",
+      "weight": 1.5
+    },
+    {
+      "criterion_id": "Q020-C03",
+      "weight": 1.0
+    },
+    {
+      "criterion_id": "Q020-C04",
+      "weight": 2.0
+    },
+    {
+      "criterion_id": "Q020-C06",
+      "weight": 1.0
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "historyai-isolated-remap-source-manifest-v1",
+  "remap_version": "unit1_v1.1_overlay_deterministic_remap_v1",
+  "scoring_version": "deterministic-v1.1-overlay+formal-preserve-v1-r1",
+  "source_run_id": "formal100-keyword-20261105-01",
+  "source_directory": "docs/evaluation/workbench/results/formal100-keyword-20261105-01",
+  "git_head": "291a2a9e9f9dcac617b78c31defe882ca89a21de",
+  "source_file_sha256_before": {
+    "execution_provenance.json": "340e979c9bf57d683b19d47b6106b44ac97a0e90509566612ab623c3ecee5fad",
+    "per_mode.csv": "9c47751add4947905474b4b11f50cb662ffcb966ce43829b2afdae2c93c2a180",
+    "per_question.csv": "e94540be8499b94c4bab6ba2872094a0a29f8e19611e2a092bf5a307f59bb883",
+    "responses.jsonl": "a35673f2c11f263bc0ebd05423a734a7a65bd25c0d34a3e0dfecfefcf953d212",
+    "review_queue.jsonl": "18367af7fe1819c365e014ec6efbd3b15cfb8d8ecc002de00a585a3e5fece4d1",
+    "run_metadata.json": "1694a3e3ac12e2824f8707cf647f74b8444053f292d448864576c63a259a0854",
+    "scores.jsonl": "8177ebd5887bcf09e804a7a4260f3a40b4ca976c5e90e6dc56042ba3f10f0bc0",
+    "summary.json": "aff08dd68a4d83abd79b4f180bdbad76bc3ec1a402f08c0c78c0f91e50ff99af",
+    "summary.md": "8f7df7616a7e76da88458f397ff1a809a9bf9dacb6f99d488434a1f74733162d"
+  },
+  "required_source_snapshot_sha256": {
+    "responses.jsonl": "a35673f2c11f263bc0ebd05423a734a7a65bd25c0d34a3e0dfecfefcf953d212",
+    "scores.jsonl": "8177ebd5887bcf09e804a7a4260f3a40b4ca976c5e90e6dc56042ba3f10f0bc0",
+    "review_queue.jsonl": "18367af7fe1819c365e014ec6efbd3b15cfb8d8ecc002de00a585a3e5fece4d1",
+    "summary.json": "aff08dd68a4d83abd79b4f180bdbad76bc3ec1a402f08c0c78c0f91e50ff99af",
+    "execution_provenance.json": "340e979c9bf57d683b19d47b6106b44ac97a0e90509566612ab623c3ecee5fad"
+  },
+  "required_source_snapshot_matches": true,
+  "formal_dataset": {
+    "path": "docs/evaluation/releases/formal_100_v1.0/formal_evaluation_100.json",
+    "sha256": "82ec092ceb50c63999eca4b45df8cc891febe519945bb2460be8e0fbe9df3a62"
+  },
+  "unit1_rubric": {
+    "path": "docs/evaluation/workbench/unit1_v1.0_rubric.json",
+    "sha256": "849deeb99b1944c15d08409d81782756623718e04dfb12a6bf15bfe3c3cda227"
+  },
+  "rules": {
+    "path": "docs/evaluation/workbench/unit1_v1.1/scoring_rules.json",
+    "sha256": "12afd774a741fb835c43f54eda5bb2bb8ad41c65bfecd277d86fb75ac75a0b3f"
+  },
+  "overlay": {
+    "path": "backend/app/services/evaluation/v11_rules.py",
+    "sha256": "c3e4fc5681ca534587123af2ab38c79339135e6c34791cc1aeb1258510452e6f"
+  },
+  "feasibility_audit": {
+    "markdown": "docs/evaluation/workbench/audits/02_independent_rescoring_feasibility.md",
+    "markdown_sha256": "1a89ed572d9972069ace08bd09f4ca959707fb5d6487d169721928e65ae57e1c",
+    "mapping": "docs/evaluation/workbench/audits/02_overlay_criterion_mapping.csv",
+    "mapping_sha256": "06ab7895b0149a590d816d452986199efc5a1e97dbd648cc471a1bcc4435d99c"
+  },
+  "semantic_model_calls": 0,
+  "source_files_preserved": true
+}

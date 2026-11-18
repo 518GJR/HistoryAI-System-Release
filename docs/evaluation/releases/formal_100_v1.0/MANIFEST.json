@@ -1,0 +1,276 @@
+{
+  "dataset_id": "formal_100_v1.0",
+  "version": "1.0-candidate-data-complete-scoring-adapter",
+  "release_status": "candidate_complete_not_frozen",
+  "generated_date": "2026-11-04",
+  "counts": {
+    "total": 100,
+    "Q": 20,
+    "K": 60,
+    "R": 20,
+    "strictly_complete_questions": 100,
+    "question_and_answer_complete": 100,
+    "unresolved_field_instances": 0,
+    "Q_complete_source_mappings": 20,
+    "K_complete_source_mappings": 60,
+    "R_source_applicability_classified": 20,
+    "complete_scoring_rules": 100
+  },
+  "source_files": [
+    {
+      "path": "docs/evaluation/workbench/unit1_v1.0_rubric.json",
+      "sha256": "849deeb99b1944c15d08409d81782756623718e04dfb12a6bf15bfe3c3cda227"
+    },
+    {
+      "path": "docs/evaluation/workbench/unit1_v1.1/scoring_rules.json",
+      "sha256": "12afd774a741fb835c43f54eda5bb2bb8ad41c65bfecd277d86fb75ac75a0b3f"
+    },
+    {
+      "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/evaluation_80_questions_master_signoff_ledger_v2.4.md",
+      "sha256": "3f57cd8d925ef9f0337a1aaabf2645c10e81d12b4e94a0a954c543efc322009d"
+    },
+    {
+      "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/README_RECOVERY.md",
+      "sha256": "b042d131c6a07b76797b8e5070c1cbc5fd7f7f0efe5a7179feabeee26bd88cfb"
+    },
+    {
+      "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/SHA256SUMS.txt",
+      "sha256": "073b899173a137c252139ef978a741dbf114196afb5523ec6443df39670d041b"
+    },
+    {
+      "path": "docs/evaluation/workbench/unit5-20-formalization-20261030/formal-import-20261101/preflight/formal_signed_338_import.csv",
+      "sha256": "216a8698c913cb2398c6612ac36b1256c59599a9ddfac6211ed389361b14bdd7"
+    },
+    {
+      "path": "docs/evaluation/workbench/unit5-20-formalization-20261030/formal-import-20261101/preflight/formal_signed_338_source_associations.json",
+      "sha256": "6d3812034eddc9d3fb5790cf2f349475e5a9b411d683012c343bc4e19529f306"
+    },
+    {
+      "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_01_K05-01_to_K05-05_signoff.md",
+      "sha256": "00df5787b18249d22bc9eb954afde8979c984f21a1e8669d35710e894bf6bc3e"
+    },
+    {
+      "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_02_K06-01_to_K06-05_signoff.md",
+      "sha256": "55ee0e87aaea01ee7ee436972c3f09e33132bf67c5d9713177e4d26503d3a76d"
+    },
+    {
+      "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_03_K07-01_to_K07-05_signoff.md",
+      "sha256": "08dcfc93f8ec70244ed52deb2cad4b6ae6e9bdfeceb88de3e58055ac2b17756d"
+    },
+    {
+      "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_04_K08-01_to_K08-05_signoff.md",
+      "sha256": "a49d83ed2c857e9b0707b2e75b46f91f5ed4b47e36e46e35d86bfde2112d794e"
+    },
+    {
+      "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_05_K09-01_to_K09-03_signoff.md",
+      "sha256": "8cee02dac1f967b0e47ba12b1f08f12db427e5f64143fe59ab218480575d5277"
+    },
+    {
+      "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_06_K10-01_to_K10-03_signoff.md",
+      "sha256": "74069430d785ce5dedc1aad2d38fb944dba86bafd4fce345c80b6ca43c123e28"
+    },
+    {
+      "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_07_K11-01_to_K11-02_signoff.md",
+      "sha256": "dca3c77db0b1543660e0cea621fbaa9547c65eb28e9088a490c614013c6f344b"
+    },
+    {
+      "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_08_K12-01_to_K12-03_signoff.md",
+      "sha256": "c4a6c8034083d8240055ad0c061ff61da40563ca2bf0d47718fa1edba1027e8e"
+    },
+    {
+      "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_09_K13-01_to_K13-03_signoff.md",
+      "sha256": "6bc42c2258df9b563bd492c0eea9ed59d84ea49e31afc153f64bbca7e57219b8"
+    },
+    {
+      "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_10_K14-01_to_K14-03_signoff.md",
+      "sha256": "312fc3f0a11671858dbae86ff204abbf3d4e724f204bc78a995049da37b0c56b"
+    },
+    {
+      "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_11_K15-01_to_K15-03_signoff.md",
+      "sha256": "adddd7c147cf248024cf5e1ca80d96798fb8281551b45f4bdb4701943c91aa34"
+    },
+    {
+      "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_12_K16-01_to_K16-04_signoff.md",
+      "sha256": "5df26c5f03bba4971f6e33d68e6a7ca0741d8e4a615d3d6d3a025bd315a90084"
+    },
+    {
+      "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_13_K17-01_to_K17-04_signoff.md",
+      "sha256": "8643020ac244589a0a808a2393376b4b70abdc1a8fe209bb372f393f61ef8ecc"
+    },
+    {
+      "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_14_K18-01_to_K20-04_signoff.md",
+      "sha256": "6bba77aa0de8b13016594353a3155ea3bcb97552557a92c67b4e40e715c61a20"
+    },
+    {
+      "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_15_R01_to_R05_signoff.md",
+      "sha256": "74a9f1fedd7b48b4a7852428bc1515f2a732b29b221cb78e88bedeb69c0a00a8"
+    },
+    {
+      "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_16_R06_to_R10_signoff.md",
+      "sha256": "a5ea7db158277097e1e3ab89aac17fad655cffbf582e5592752118a6bdb7796b"
+    },
+    {
+      "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_17_R11_to_R15_signoff.md",
+      "sha256": "144b52a3b330dcb362b968c4dd4f193959f4b39c81899431b424cb115351db7a"
+    },
+    {
+      "path": "docs/evaluation/workbench/recovered_signoffs_20261103/historyai_signoff_recovery/batch_signoffs/batch_18_R16_to_R20_signoff.md",
+      "sha256": "c10a3e82eb15fb459cf08285097cb371181c432207b9bfc0abfacfe5591568ec"
+    },
+    {
+      "path": "docs/evaluation/workbench/unit5-20-formalization-20261030/input/正式Schema参考_第一单元样例.json",
+      "sha256": "c7b206d12fe315664389a1516f8c822b62d90c32229836f9f5f2417d81b1eeb5"
+    },
+    {
+      "path": "docs/evaluation/workbench/unit5-20-formalization-20261030/formal-import-20261101/candidate-vector-index-lesson4-20261102/knowledge_source_association_map.json",
+      "sha256": "b9bf3422415f322695a96d47468603cb05d3dcfc9571af7cff3e495e573aa1b5"
+    }
+  ],
+  "artifact_files": [
+    {
+      "path": "formal_evaluation_100.json",
+      "sha256": "82ec092ceb50c63999eca4b45df8cc891febe519945bb2460be8e0fbe9df3a62"
+    },
+    {
+      "path": "source_signoff_crosswalk.csv",
+      "sha256": "f267b85dedf3bf1c1be4c358bb28733a1fb846931240241fc209adc0e28b97bf"
+    },
+    {
+      "path": "validation_report.md",
+      "sha256": "07d799b83269177bbb03c2315c9f1f68a5cf0c4409c57870a541176191a62b28"
+    },
+    {
+      "path": "unresolved_items.md",
+      "sha256": "a894b2e5fe9a43702ff50324bfa74e96f0cd2a066b9507f4a90a1787b3afba6d"
+    },
+    {
+      "path": "R01_R20_recovery_audit.md",
+      "sha256": "4e904eff5df8c0b8285013a637b79a95fbed5ef8e4e24f735478087efd8d8e8f"
+    },
+    {
+      "path": "Q01_Q20_source_mapping_audit.md",
+      "sha256": "5ac3d613c8b11d84860d3d45db5a27787d19f0518f893c84a490246500251315"
+    },
+    {
+      "path": "K05_K20_source_mapping_audit.md",
+      "sha256": "714ab226286f2d63fdde1a7a4490395c2e3c9ebc1ddd30b30e44d9d5c68259f1"
+    },
+    {
+      "path": "R01_R20_source_applicability_audit.md",
+      "sha256": "9516cae5d799fd1bae9d3c896e43d71e0412e961badb2107a048d5a3949e2195"
+    },
+    {
+      "path": "FINAL_ACCEPTANCE_TEST_REPORT_20261104.md",
+      "sha256": "0b63645558c8aad9f158b7cf66b8f6b1b8d63ca2f68227c39515cec138704a1e"
+    }
+  ],
+  "manifest_self_hash": "excluded_to_avoid_circular_hash",
+  "r_recovery": {
+    "version": "BATCH-15_to_BATCH-18_2026-11-03",
+    "records_populated": 20,
+    "authority_exact_records": 14,
+    "boundary_reconstructed_question_wording": 6,
+    "direct_approved": 4,
+    "approved_after_revision": 16,
+    "pending": 0,
+    "audit_file": "R01_R20_recovery_audit.md"
+  },
+  "external_authority_files": [
+    {
+      "batch": "BATCH-15",
+      "path": "[local-path-removed] (1).md",
+      "sha256": "74a9f1fedd7b48b4a7852428bc1515f2a732b29b221cb78e88bedeb69c0a00a8",
+      "identical_to_repo_copy": true
+    },
+    {
+      "batch": "BATCH-16",
+      "path": "[local-path-removed] (1).md",
+      "sha256": "a5ea7db158277097e1e3ab89aac17fad655cffbf582e5592752118a6bdb7796b",
+      "identical_to_repo_copy": true
+    },
+    {
+      "batch": "BATCH-17",
+      "path": "[local-path-removed] (1).md",
+      "sha256": "144b52a3b330dcb362b968c4dd4f193959f4b39c81899431b424cb115351db7a",
+      "identical_to_repo_copy": true
+    },
+    {
+      "batch": "BATCH-18",
+      "path": "[local-path-removed] (1).md",
+      "sha256": "c10a3e82eb15fb459cf08285097cb371181c432207b9bfc0abfacfe5591568ec",
+      "identical_to_repo_copy": true
+    }
+  ],
+  "closeout": {
+    "K09_02_criterion_source_mapping": "6/6",
+    "K09_02_unresolved_fields": 0,
+    "R03_full_text_reference_registered": true,
+    "signed_questions_or_scoring_rules_modified": false
+  },
+  "runtime_configuration": {
+    "audited_date": "2026-11-04",
+    "knowledge_mode": "textbook",
+    "retrieval_mode_default": "keyword",
+    "signed_database_enabled": true,
+    "signed_database_url_or_credentials_recorded": false,
+    "vector_index_path": "data/vector_index/textbook_bge_small_zh_v1_5_signed_20261104.npz",
+    "vector_index_file_sha256": "2c762f2f5084f75abe5d74cc1da7946700e19c086bf075d7f779f5ca3bfad54d",
+    "vector_corpus_sha256": "6dcf3a940663be911c63e3e0cbc44c180273e46a1677be2368a98d0f9f880641",
+    "vector_count": 389,
+    "vector_model_id": "BAAI/bge-small-zh-v1.5",
+    "vector_model_revision": "7999e1d3359715c523056ef9478215996d62a620",
+    "vector_index_built_at": "2026-11-04T02:10:20.010731+00:00",
+    "vector_index_load_exit_code": 0,
+    "vector_corpus_hash_validated": true,
+    "static_default_corpus_note": "The static default textbook JSON and old default NPZ do not contain the complete signed Lesson 4 corpus; the approved trial environment uses the signed database and signed NPZ above."
+  },
+  "retrieval_coverage_audit": {
+    "comparison_basis": "set comparison by knowledge_id, source_id, raw fragment_id, and effective (knowledge_id, source_id, fragment_id-or-source_id) association",
+    "keyword_knowledge_point_count": 399,
+    "vector_document_count": 389,
+    "knowledge_id": {
+      "keyword_unique": 399,
+      "vector_unique": 399,
+      "keyword_only": 0,
+      "vector_only": 0
+    },
+    "source_id": {
+      "keyword_unique": 389,
+      "vector_unique": 389,
+      "keyword_only": 0,
+      "vector_only": 0
+    },
+    "raw_nonempty_fragment_id": {
+      "keyword_unique": 354,
+      "vector_unique": 389,
+      "keyword_only": 0,
+      "vector_only": 35,
+      "difference_reason": "35 legacy static textbook source_refs from Lessons 1-3 have source_id but no separate fragment_id; vector documents use the same source_id as fragment_id."
+    },
+    "effective_association_triples": {
+      "normalization": "effective_fragment_id = fragment_id if present, otherwise source_id",
+      "keyword_unique": 440,
+      "vector_unique": 440,
+      "keyword_only": 0,
+      "vector_only": 0
+    },
+    "L04_010_effective_association": [
+      "L04-010",
+      "H7A-P025-C",
+      "H7A-P025-C"
+    ],
+    "L04_010_textbook_page": 25,
+    "L04_010_pdf_page": 30
+  },
+  "validation_summary": {
+    "unique_ids": 100,
+    "Q_source_complete": 20,
+    "K_source_complete": 60,
+    "R_applicability_complete": 20,
+    "question_answer_complete": 100,
+    "scoring_complete": 100,
+    "unresolved_field_instances": 0,
+    "small_scale_trial_ready": true,
+    "formal_experiment_ready": false
+  }
+}
